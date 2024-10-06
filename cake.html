@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css file-->
+    <link href="cake.css" type="text/css" rel="stylesheet">
+
+    <!--get.bootstrap.com-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+    <!--font awesom-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--google font-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Lobster&family=Rubik:ital,wght@0,300..900;1,300..900" rel="stylesheet">
+
+    <title>Sweet Cakes</title>
+    <link rel="shortcut icon" type="image" href="photos of cake/logo.png">
+    <!--icons link from boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- animation text(animate.css cdn) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- AOS library  for animation-->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-------------------------------nav bar------------------------------------>
+  <nav class="navbar navbar-expand-lg navbar-dark  navbar-custom">
+  
+    <div class="container-fluid">
+      <a class="navbar-brand"   href="#"><img src="photos of cake/logo.png" alt="" width="120px"  class="d-inline-block align-text-center " style="margin-left: 25px;"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent" >
+        <ul class="navbar-nav me-auto mb-1 mb-lg-0" style="padding-left: 10px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" >Home</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              Cakes
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: white;">
+              <li><a class="dropdown-item" href="#">Fresh Creams</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Birthday Cakes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Photo Cakes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Plum Cakes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Wedding Cakes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">3D/ Theme Cakes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Eggless Cakes</a></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#product-cards" style="color: white;">Desserts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              Chocolates
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Home Made Chocolates</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Premium Chocolates</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Milk Chocolates</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Dark Chocolates</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sugar Free Chocolates</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">All Chocolates</a></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" style="color: white;">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#contact" style="color: white;">Contact Us</a>
+          </li>
+        </ul>
+        
+        
+    
+   <!--icons-->
+       <div class="icons-container">
+           <div class="icons1">
+             <a href="#"><i class="fa-regular fa-heart"></i></a>
+           </div>
+           <div class="icons1">
+             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+           </div>
+           <div class="icons1">
+             <a href="#"><i class="fa-regular fa-user"></i></a>
+          </div>
+       </div>
+
+  </nav>
+
+
+  <!-------------------------------------home section------------------------------------->
+
+  <section class="home">
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-lg-8 pt-5 text-center">
+          <h1 class="animate__animated animate__zoomIn">Making Your Life Sweeter<br>One Bite At A Time!</h1>
+          <a href="#product-cards" class="animate__animated animate__zoomIn" style="animation-delay: 1s;" ><button class="btn1 mt-3">Order Now</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-----------------------------------------product---------------------------->
+
+  <section class="cakes">
+    <div class="container">
+        <div class="row" data-aos="fade-up" data-aos-duration="3000" >
+            <div class="col-lg-4 col-md-6 col-12 py-3">
+                <img src="photos of cake/cake1.jpeg" class="img-fluid" alt="Cake 1">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 py-3">
+                <img src="photos of cake/cake14.jpeg" class="img-fluid" alt="Cake 14">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 py-3">
+                <img src="photos of cake/fruit.jpeg" class="img-fluid" alt="Fruit Cake">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!----------------------------------banner-------------------------------->
+
+  <section class="banner">
+    <div class="container py-5">
+      <div class="row py-5" data-aos="fade-up" data-aos-duration="3000" >
+        <div class="col-lg-8 pt-4">
+        <h3 style="color: white; font-weight: bold; font-size: 50px;;">Delicious Cake</h3>
+        <h2  style="color: white; font-weight: bold;">UPTO 50% OFF</h2>
+        <p  style="color: white; font-size: 17px;">Get ready to create unlimited fun and sweet memories by<br> adding the heavenly taste of the cake to your lives.</p>
+        <a href="#product-cards"  ><button class="btn1 mt-3">Order Now</button></a>
+        </div>
+     </div>
+    </div>
+  </section>
+
+
+  <!--------------------------product details------------------------------>
+
+  <section id="product-cards">
+    <div class="container" data-aos="fade-up" data-aos-duration="3000">
+      <h1 class="head py-5" >CAKES</h1>
+      <div class="row" style="margin-top: 50px;" >
+        <div class="col-lg-3 py-3 py-md-0">
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/cake5.jpeg">
+             <div class="card-body">
+              <h3>Cream Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Chocolate Fresh Cream Cake</p>
+              <h6>₹820.00<span><button>Add Cart</button></span></h6>
+             </div>
+          </div>
+        </div>
+
+        <!--cake2-->
+        <div class="col-lg-3 py-3 py-md-0">
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/cake3.jpeg">
+             <div class="card-body">
+              <h3>Choco Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Eggless Dutch Truffle Cake</p>
+              <h6>₹800.00<span><button>Add Cart</button></span></h6>
+             </div>
+          </div>
+        </div>
+
+        <!--cake3-->
+        <div class="col-lg-3 py-3 py-md-0">
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/slice.jpeg">
+             <div class="card-body">
+              <h3>Slice Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Strawberry Vannila Cake</p>
+              <h6>₹50.00<span><button>Add Cart</button></span></h6>
+             </div>
+           </div>
+        </div>
+
+        <!--cake4-->
+        <div class="col-lg-3 py-3 py-md-0">
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/fruit.jpeg">
+             <div class="card-body">
+              <h3>Fruit Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>Fruit Overload Cake Half Kg</p>
+              <h6>₹725.00<span><button>Add Cart</button></span></h6>
+             </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row" style="margin-top: 50px;" data-aos="fade-up" data-aos-duration="3000">
+        <div class="col-lg-3 py-3 py-md-0">
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/cupred.jpg">
+             <div class="card-body">
+              <h3>Cup Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+              </div>
+              <p>One Bowl Red Velvet Cupcake</p>
+              <h6>₹120.00<span><button>Add Cart</button></span></h6>
+             </div>
+          </div>
+        </div>
+
+        <!--cake2-->
+        <div class="col-lg-3 py-3 py-md-0">
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/flow.jpg">
+             <div class="card-body">
+              <h3>Flower Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Blossoming Spring Flowers Cake</p>
+              <h6>₹1500.00<span><button>Add Cart</button></span></h6>
+             </div>
+          </div>
+        </div>
+
+        <!--cake3-->
+        <div class="col-lg-3 py-3 py-md-0">
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/butt.jpg">
+             <div class="card-body">
+              <h3>Butter Scotch Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Chocolate Butter Scotch Cake</p>
+              <h6>₹1099.00<span><button>Add Cart</button></span></h6>
+             </div>
+           </div>
+        </div>
+
+        <!--cake4-->
+        <div class="col-lg-3 py-3 py-md-0">
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/biscuit.jpg">
+             <div class="card-body">
+              <h3>Biscuit Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>Lotus Biscoff Cake</p>
+              <h6>₹1700.00<span><button>Add Cart</button></span></h6>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------birthday cakes------------------------------------------->
+
+  <section id="product-cards">
+    <div class="container" data-aos="fade-up" data-aos-duration="3000">
+      <h1 class="head py-5" >BIRTHDAY CAKES</h1>
+      <div class="row" style="margin-top: 50px;" data-aos="fade-up" data-aos-duration="3000">
+        <div class="col-lg-3 py-3 py-md-0" >
+          <div class="card" >
+            <div class="overlay" >
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/choco bith.webp">
+             <div class="card-body">
+              <h3>Chocolate Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Delicious Truffle Cake</p>
+              <h6>₹645.00<span><button>Add Cart</button></span></h6>
+             </div>
+          </div>
+        </div>
+
+        <!--cake2-->
+        <div class="col-lg-3 py-3 py-md-0" >
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/birthday.webp">
+             <div class="card-body">
+              <h3>Butterscoth Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Birthday Special Butterscotch Cake</p>
+              <h6>₹645.00<span><button>Add Cart</button></span></h6>
+             </div>
+          </div>
+        </div>
+
+        <!--cake3-->
+        <div class="col-lg-3 py-3 py-md-0" >
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/cupcake.avif">
+             <div class="card-body">
+              <h3>Cup Cake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p> Birhday Cupcake</p>
+              <h6>₹120.00<span><button>Add Cart</button></span></h6>
+             </div>
+           </div>
+        </div>
+
+        <!--cake4-->
+        <div class="col-lg-3 py-3 py-md-0">
+          <div class="card">
+            <div class="overlay">
+              <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+             </div>
+             <img src="photos of cake/brthdycup.webp">
+             <div class="card-body">
+              <h3>Birthday Cupcake</h3>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>Vannila Birthday Cupcake</p>
+              <h6>₹700.00<span><button>Add Cart</button></span></h6>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+<!------------------------------------------------desserts-------------------------------->
+
+<section id="product-cards">
+  <div class="container" data-aos="fade-up" data-aos-duration="3000">
+    <h1 class="head py-5" >DESSERTS</h1>
+    <div class="row" style="margin-top: 50px;" data-aos="fade-up" data-aos-duration="3000">
+      <div class="col-lg-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+           </div>
+           <img src="photos of cake/oooo.jpg">
+           <div class="card-body">
+            <h3>Chocolate Cake</h3>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>Delicious Truffle Cake</p>
+            <h6>₹645.00<span><button>Add Cart</button></span></h6>
+           </div>
+        </div>
+      </div>
+
+      <!--cake2-->
+      <div class="col-lg-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+           </div>
+           <img src="photos of cake/ddd.jpg">
+           <div class="card-body">
+            <h3>Tiramisu Trifle</h3>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>Gluten Free Tiramisu Trifle</p>
+            <h6>₹800.00<span><button>Add Cart</button></span></h6>
+           </div>
+        </div>
+      </div>
+
+      <!--cake3-->
+      <div class="col-lg-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+           </div>
+           <img src="photos of cake/icecream.jpg">
+           <div class="card-body">
+            <h3>Ice Cream Dessert</h3>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p> Ice Cream Sundae Dessert</p>
+            <h6>₹120.00<span><button>Add Cart</button></span></h6>
+           </div>
+         </div>
+      </div>
+
+      <!--cake4-->
+      <div class="col-lg-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+           </div>
+           <img src="photos of cake/chhh.jpg">
+           <div class="card-body">
+            <h3>Cherry Dessert</h3>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Cherry Cream Cheese Dessert</p>
+            <h6>₹1000.00<span><button>Add Cart</button></span></h6>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!--about-->
+  <section class="about">
+<div class="container" id="about" data-aos="fade-up" data-aos-duration="3000">
+  <h1 class="head py-5">ABOUT US</h1>
+  <div class="row" data-aos="fade-up" data-aos-duration="3000">
+    <div class="col-lg-6 py-3 py-md-0 mt-3">
+      <div class="card" >
+        <img src="photos of cake/about.webp" class="animate__animated animate__slideInLeft">
+      </div>
+    </div>
+    <div class="col-lg-6 py-3 py-md-0 mt-3">
+      <p>If you are searching for a place where you can order the best quality gifts and birthday cakes, then you are at the right place. We provide the best quality of cake and also premium gifts to our customers to make them feel good to gift it to their loved ones. We give the special service to our customers regarding the love message or other arrangements along with the gift and cake. And also they will enjoy our services then you need to contact us to know more about our awesome offerings.</p>
+      <div id="bt"><button>Read More..</button></div>
+    </div>
+  </div>
+</div>
+</section>
+<!--contact-->
+
+<section class="contact ">
+  <div class="container" id="contact" data-aos="fade-up" data-aos-duration="3000">
+    <h1 class="hea py-5" >CONTACT US</h1>
+    <div class="row" data-aos="fade-up" data-aos-duration="3000" >
+      <div class="col-md-4 py-1 py-md-0" >
+        <div class="form-group">
+          <input type="text" class="form-control" id="user" placeholder="Name"> 
+        </div>
+      </div>
+      <div class="col-md-4 py-1 py-md-0">
+        <div class="form-group">
+          <input type="email" class="form-control" id="eml" placeholder="Email"> 
+        </div>
+      </div>
+      <div class="col-md-4 py-1 py-md-0">
+        <div class="form-group">
+          <input type="number" class="form-control" id="phn" placeholder="Phone"> 
+        </div>
+      </div>
+     </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+      
+    </div>
+    <div id="messagebtn" data-aos="fade-up" data-aos-duration="3000"><button class="btn btn mt-3 mb-5 text-center">Send Message</button></div>
+  </div>
+</section>
+<!--footer-->
+
+<footer id="footer">
+  <h1 class="text-center">Sweet Cakes</h1>
+  <p class="text-center"></p>
+  <div class="icons text-center">
+    <span><i class="fab fa-facebook brands"></i></span>
+    <span><i class="fab fa-instagram brands"></i></span>
+    <span><i class="fab fa-twitter brands"></i></span>
+    <span><i class="fab fa-google-plus brands"></i></span>
+  </div>
+  <div class="copyright text-center">
+    &copy; Copyright <strong>Sweet Cakes</strong>. All Rights Reserved
+  </div>
+  
+  <a href="#top" class="arrow"><i class="fa-solid fa-angle-up"></i></a>
+
+</footer>
+
+
+</body>
+<!-- aos animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+
+</html>
