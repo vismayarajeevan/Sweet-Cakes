@@ -18,14 +18,17 @@
     font-weight: 500;
     transition: 0.5s;
     font-size: 1.15rem;
-    margin-left: 30px;
+    
 }
 
 .nav-link:hover {
-    background-color: rgba(161,109,14,1);
+    opacity: 1; /* Control overall element opacity */
+    background-color: rgba(86, 58, 5, 0.8); /* Adjust the last value for opacity */
     border-radius: 10px;
-    
 }
+
+
+
 
 /* icons */
 
@@ -56,17 +59,24 @@
 
 @media screen and (max-width: 768px) { /* For example, adjust according to your needs */
 
+    .navbar-brand{
+        margin-left: 25px;
+    }
     .nav-link{
-        width: 40%;
-        margin-left: 0px;
+        width: 100%;
+        text-align: left;
+        /* margin-left: -10px; */
+        
     }
     .icons-container {
         flex-wrap: nowrap; /* Prevents wrapping */
     }
 
     .icons1 {
-        margin-left: 10px; /* Adjusts spacing if needed */
+        padding-right: 10px;
+        margin-left: 0px; /* Adjusts spacing if needed */
         margin-top: 10px;
+        margin-bottom: 20px;
     }
 
 }
@@ -211,6 +221,7 @@
     opacity: 1;
     margin-left: 5%;
     transition: 0.5s;
+    
 }
 .overlay i{
     background-color: #2e1700;
@@ -273,8 +284,10 @@
     cursor: pointer;
 }
 #product-cards h6 span button:hover{
-    background-color: #2e1700;
-    color: white;
+    background-color: white;
+    border: 2px solid white;
+    color: #2e1700;
+    font-weight: 800;
 }
 
 
