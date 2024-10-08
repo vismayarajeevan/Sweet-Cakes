@@ -374,6 +374,15 @@
     #row1{
         margin-top: 0px;
     }
+    #last{
+        margin-bottom: 50px;
+    }
+    #last1{
+        margin-bottom: 50px;
+    }
+    #last2{
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -390,7 +399,16 @@
     #row1{
         margin-top: 0px;
     }
+    #last{
+        margin-bottom: 50px;
+    }
 
+    #last1{
+        margin-bottom: 50px;
+    }
+    #last2{
+        margin-bottom: 50px;
+    }
     
 }
 
@@ -403,6 +421,7 @@
         width: 230px;
         height: 600px; /* Set a fixed height for the cards */
     }
+   
 }
 
 
@@ -443,6 +462,18 @@
     border: none;
     
 
+}
+
+@media (max-width: 760px){
+    #bt{
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 992px){
+    #bt{
+        margin-bottom: 50px;
+    }
 }
 
 /********************************************** contact *******************************************/
