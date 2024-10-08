@@ -387,6 +387,9 @@
     #product-cards .card {
         margin: 10px; /* Add space around each card */
     }
+    #row1{
+        margin-top: 0px;
+    }
 
     
 }
