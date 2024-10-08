@@ -361,11 +361,20 @@
     font-weight: 800;
 }
 
-@media (max-width: 480px){
+
+@media (max-width: 480px) {
     #product-cards .col-lg-3 {
-        margin-bottom: 10px; /* Maintain margin for smaller screens */
+        margin-bottom: 5px;  /* Reduce the gap */
+        margin-top: -25px;
+    }
+
+    #product-cards .card {
+           
+        margin-bottom: 5px;  /* Ensure spacing between cards */
     }
 }
+
+
 
 /* Ensure uniform margin for smaller screens */
 @media (max-width: 760px) {
