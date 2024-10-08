@@ -384,7 +384,7 @@
     }
 
      #product-cards .card {
-        margin: 0 auto; /* Center cards and remove side margins on small screens */
+        margin-bottom: 5px;
     } 
     
     #row1{
